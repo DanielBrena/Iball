@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<script type="text/javascript">
+	
+	function reiniciar(){
+		location.href='game.html';
+	}
+	function home(){
+		location.href='index.html';
+	}
+	function mostrar(){
+		
+	$('#mostrar_el_score').html(parseInt(localStorage.getItem('score')));
+	}
+	
+
+	</script>
+</head>
+<body onload='mostrar()'>
+	<div class='fondo_final'>
+		<div id='head'>
+			<div onclick='reiniciar()'id='reiniciar'> Reset</div>
+			<div onclick='home()'id='home'> Home</div>
+		</div>
+		<div id='mostrar_score'>
+			<div><h2>Score</h2></div>
+			<div id='mostrar_el_score'>
+			</div>
+		</div>
+	</div>
+
+<script  type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="js/juego.js"></script>
+</body>
+</html>

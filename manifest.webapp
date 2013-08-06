@@ -1,0 +1,18 @@
+{
+    "version": "1",
+    "name": "iBall",
+    "launch_path": "/index.html",
+    "description": "Dura el tiempo posible sin que la pelota llegue en la parte superior e inferior y acumula el maximo de puntos",
+    "icons": {
+        
+        "60": "/img/icon.png",
+        "128": "/img/icon128.png"
+    },
+    "developer": {
+        "name": "Daniel Brena",
+        "url": "http://danielbrena.blogspot.com"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "orientation": ["portrait"]
+}
